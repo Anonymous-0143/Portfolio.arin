@@ -1,42 +1,376 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Portfolio - Home</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spice Roots</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">   
+    </head>
+        <body>
 
-    <!-- Header -->
-    <header>
-        <h1>My Portfolio</h1>
-    </header>
+            <div class="header">
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <img src="images/logo.png" width="125px">
+                    </div>
+                    <nav>
+                        <ul id="MenuItems">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Product</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Contact</a></li>
+                            <li><a href="">Account</a></li>
+                        </ul>
+                    </nav>
+                    <img src="images/cartsymbol1.png" width="30px" height="30px">
+                    <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" >
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <h1>Rooted in Flavor,<br> Grounded in Quality</h1>
+                            <p>At Spice Roots, we bring the essence of authentic,<br> organic spices directly from their natural origins to your kitchen</p>
+                             <a href="" class="btn">Explore Now </a>
+                        </div>
+                        <div class="col-2">
+                            <img src="images/peoplespice1.png">
+                        </div>
+                    </div>
+            </div>
+           
+             </div> 
+             
+             <!-- -----------feature categories------------ -->
+              <div class="categories">
+                <div class="small-container">
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="images/spicejar1.png">
+                        </div>
+                        <div class="col-3">
+                            <img src="images/spicejar2.png">
+                        </div>
+                        <div class="col-3">
+                            <img src="images/spicejar3.png">
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                
+<!-- -----------featured products------------- -->
 
-    <!-- Navigation Bar -->
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+                <div class="small-container">
+                    <h2 class="title">Featured Products</h2>
+                    <div class="row">
+                       <div class="col-4">
+                        <img src="images/clove.png">
+                        <h4>Clove</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        
+                        <p>$5.00</p>
+                       </div> 
+                       <div class="col-4">
+                        <img src="images/carom.png">
+                        <h4>Clove</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        
+                        <p>$15.00</p>
+                       </div> 
+                       <div class="col-4">
+                        <img src="images/cardamom.png">
+                        <h4>Clove</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        
+                        <p>$20.00</p>
+                       </div> 
+                       <div class="col-4">
+                        <img src="images/cinnamon.png">
+                        <h4>Clove</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        
+                        <p>$25.00</p>
+                       </div> 
+                    </div>
+                    <h2 class="title">Latest Products</h2>
+                    <div class="row">
+                        <div class="col-4">
+                         <img src="images/clove.png">
+                         <h4>Clove</h4>
+                         <div class="rating">
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star-o"></i>
+                         </div>
+                         
+                         <p>$5.00</p>
+                        </div> 
+                        <div class="col-4">
+                         <img src="images/carom.png">
+                         <h4>Clove</h4>
+                         <div class="rating">
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star-o"></i>
+                         </div>
+                         
+                         <p>$15.00</p>
+                        </div> 
+                        <div class="col-4">
+                         <img src="images/cardamom.png">
+                         <h4>Clove</h4>
+                         <div class="rating">
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star-o"></i>
+                         </div>
+                         
+                         <p>$20.00</p>
+                        </div> 
+                        <div class="col-4">
+                         <img src="images/cinnamon.png">
+                         <h4>Clove</h4>
+                         <div class="rating">
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star-o"></i>
+                         </div>
+                         
+                         <p>$25.00</p>
+                        </div> 
+                     </div>
+                     <div class="row">
+                        <div class="col-4">
+                         <img src="images/clove.png">
+                         <h4>Clove</h4>
+                         <div class="rating">
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star-o"></i>
+                         </div>
+                         
+                         <p>$5.00</p>
+                        </div> 
+                        <div class="col-4">
+                         <img src="images/carom.png">
+                         <h4>Clove</h4>
+                         <div class="rating">
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star-o"></i>
+                         </div>
+                         
+                         <p>$15.00</p>
+                        </div> 
+                        <div class="col-4">
+                         <img src="images/cardamom.png">
+                         <h4>Clove</h4>
+                         <div class="rating">
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star-o"></i>
+                         </div>
+                         
+                         <p>$20.00</p>
+                        </div> 
+                        <div class="col-4">
+                         <img src="images/cinnamon.png">
+                         <h4>Clove</h4>
+                         <div class="rating">
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star-o"></i>
+                         </div>
+                         
+                         <p>$25.00</p>
+                        </div> 
+                     </div>
+                </div>
+<!-- ----------------offer-------------- -->
+                <div class="offer">
+                    <div class="small-container">
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="images/.jpg" class="offer-img">
+                            </div>
+                            <div class="col-2">
+                                <p>Extra 20% off on your first order</p>
+                                <h1>Curry Leaves Powder</h1>
+                                <small>Aromatic and flavorful, curry leaves powder is made from finely ground dried curry leaves. It adds a distinct, earthy, and slightly citrusy flavor to a variety of dishes. Perfect for enhancing curries, soups, and marinades, this powder is a staple in South Asian cuisine, offering a unique taste that complements both vegetarian and non-vegetarian recipes.</small>
+                                <br><a href=""class ="btn">Buy Now</a>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <h1>Welcome to My Portfolio</h1>
-        <p>Discover my work, projects, and get to know more about me.</p>
-        <a href="projects.html" class="btn">View My Work</a>
-    </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+ 
+<!-----------------testimonial-------------- -->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <p>Good</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="images/women1.png" alt="">
+                    <h3>Ariana Smith</h3>
+                </div>
+                <div class="col-3">
+                    <p>Average</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="images/men.png.jpeg" alt="">
+                    <h3>Arin Choubey</h3>
+                </div>
+                <div class="col-3">
+                    <p>Awesome</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="images/women2.png" alt="">
+                    <h3>Bella Joe</h3>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
-    </footer>
+<!-- --------------brands------------------ -->
 
-    <script src="js/script.js"></script>
-    <script src="//code.tidio.co/xrgh3mkztwupo1dgdfl3lp9n6xqyiagu.js" async></script>
-</body>
-</html>
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="images/logo.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/ppay.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/gpay.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/upi.png">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------footer---------- -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download our app for  android and ios mobile phone.</p>
+                        <div class="app-logo">
+                            <img src="images/playstore2.png">
+                            <img src="images/appstore.png">
+                        </div>
+
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images/logo.png">
+                        <p>**Goal of Spice Roots:**
+
+                            To deliver premium, authentic spices that enrich culinary experiences and connect customers with global flavors. We strive to enhance everyday cooking with fresh, high-quality ingredients.</p>
+
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliates</li>
+                        </ul>
+
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>facebool</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>Youtube</li>
+                        </ul>
+
+                    </div>
+                </div>
+                <hr>
+                <p>Copyright 2024 - Spice Roots</p>
+            </div>
+        </div>
+<!-- -----------js for toggle menu----------- -->
+ <script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+    {
+        MenuItems.style.maxHeight = "200px";
+    }
+    else{
+        MenuItems.style.maxHeight = "0px";
+    }
+    }
+</script>
+        </body>
+ </html>   
